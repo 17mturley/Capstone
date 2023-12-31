@@ -1,0 +1,47 @@
+
+  body {
+    margin: 0;
+    padding: 200;
+}
+
+.navbar {
+    background-color: #e6aed1;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fridge-pantry-grocery-section,
+#my-recipes-section,
+#add-recipes-section {
+    width: 30%; 
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #8ee4b0;
+}
+
+
+form {
+    margin-bottom: 10px;
+}
+
+
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #fridge-pantry-grocery-section,
+    #my-recipes-section,
+    #add-recipes-section {
+        width: 100%; /* Adjust the width as needed */
+    }
+}
